@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liashkevich Code Studio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Poppins', sans-serif;
+        /* background-color: #0D1117; */
+      }
+      .animate-text-reveal {
+        animation: text-reveal 1s ease-out forwards;
+        opacity: 0;
+      }
+      @keyframes text-reveal {
+        from {
+          transform: translateY(20px);
+          opacity: 0;
+        }
+        to {
+          transform: translateY(0);
+          opacity: 1;
+        }
+      }
+      .delay-200 { animation-delay: 200ms; }
+      .delay-400 { animation-delay: 400ms; }
+      .delay-600 { animation-delay: 600ms; }
+
+      .forge-glow {
+        animation: forge-animation 5s ease-in-out infinite;
+      }
+
+      @keyframes forge-animation {
+        0%, 100% {
+          color: #d1d5db; /* A cool, metallic gray */
+          text-shadow: none;
+        }
+        10% {
+          color: #9b2c2c; /* Deep red, just starting to glow */
+          text-shadow: 0 0 3px #c53030;
+        }
+        50% {
+          color: #ffc800; /* Peak heat, bright yellow-gold */
+          text-shadow: 0 0 8px #ffd700, 0 0 18px #ff8c00, 0 0 28px #ff4500;
+        }
+        90% {
+            color: #9b2c2c; /* Cooling down back to red */
+            text-shadow: 0 0 3px #c53030;
+        }
+      }
+
+      .forge-glow-gradient {
+        --grad-1: #00BFFF;
+        --grad-2: #8A2BE2;
+        --grad-3: #FF007F;
+        background-image: linear-gradient(to right, var(--grad-1), var(--grad-2), var(--grad-3));
+        animation: forge-gradient-animation 5s ease-in-out infinite;
+      }
+
+      @keyframes forge-gradient-animation {
+        0%, 100% {
+            --grad-1: #00BFFF;
+            --grad-2: #8A2BE2;
+            --grad-3: #FF007F;
+            text-shadow: none;
+        }
+        50% {
+            --grad-1: #ffc800; /* Bright Yellow */
+            --grad-2: #ff4500; /* OrangeRed */
+            --grad-3: #e53e3e; /* Red */
+            text-shadow: 0 0 10px rgba(255, 200, 0, 0.7), 0 0 20px rgba(255, 140, 0, 0.5);
+        }
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
