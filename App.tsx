@@ -7,6 +7,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import ParticleBackground from './components/ParticleBackground';
+import Pricing from './components/Pricing';
 
 const App: React.FC = () => {
   const homeRef = useRef<HTMLDivElement>(null);
@@ -17,11 +18,14 @@ const App: React.FC = () => {
   
   const [heroTitleRect, setHeroTitleRect] = useState<DOMRect | null>(null);
 
+  const pricingRef = useRef<HTMLDivElement>(null);
+  
   const sections = {
     home: homeRef,
     gallery: galleryRef,
     downloads: downloadsRef,
     about: aboutRef,
+    pricing: pricingRef,
     contact: contactRef,
   };
 
@@ -49,6 +53,9 @@ const App: React.FC = () => {
           </div>
           <div ref={aboutRef}>
             <About />
+          </div>
+          <div ref={pricingRef}>
+            <Pricing />
           </div>
           <div ref={contactRef}>
             <Contact />

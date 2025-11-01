@@ -17,6 +17,7 @@ const Header: React.FC<HeaderProps> = ({ scrollToSection, sections }) => {
     { name: 'Галерея', section: sections.gallery },
     { name: 'Завантаження', section: sections.downloads },
     { name: 'Про нас', section: sections.about },
+    { name: 'Ціни', section: sections.pricing },
     { name: 'Контакти', section: sections.contact },
   ];
 

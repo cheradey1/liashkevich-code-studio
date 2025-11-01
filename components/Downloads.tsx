@@ -22,7 +22,7 @@ const Downloads: React.FC = () => {
       <div className="container mx-auto px-6">
         <h2 className="text-4xl font-bold text-center text-white mb-2">Завантаження</h2>
         <p className="text-center text-gray-400 mb-12 max-w-2xl mx-auto">
-          Отримайте доступ до моїх інструментів, ассетів та вихідного коду на цих платформах.
+          Завантажуйте додатки та отримуйте доступ до вихідного коду на цих платформах.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <DownloadLink 
@@ -38,7 +38,7 @@ const Downloads: React.FC = () => {
                 platform="GitHub"
             />
             <DownloadLink 
-                href="#" 
+                href="https://play.google.com/store/apps/developer?id=DONT+PUSH+THE+HORSES+GAME+STUDIOS" 
                 icon={<PlayStoreIcon className="w-16 h-16" />}
                 label="Play Market"
                 platform="Google Play"
