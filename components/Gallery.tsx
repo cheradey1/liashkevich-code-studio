@@ -4,6 +4,14 @@ import ProjectCard from './ProjectCard';
 
 const projects: Project[] = [
   {
+    youtubeId: 'w-lcAH8vxno',
+    category: 'Web',
+    title: 'Chat GPT Powered Business Assistant',
+    description: 'Інноваційний бізнес-асистент на базі Chat GPT, що допомагає автоматизувати рутинні завдання та підвищити продуктивність.',
+    link: 'https://www.youtube.com/watch?v=w-lcAH8vxno',
+    price: 'Free'
+  },
+  {
     youtubeId: 'eNKnBF07Uew',
     category: 'Blender',
     title: 'Special Effects in Blender Addon',
