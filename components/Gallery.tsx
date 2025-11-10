@@ -4,10 +4,26 @@ import ProjectCard from './ProjectCard';
 
 const projects: Project[] = [
   {
+    youtubeId: 'Iqqj_t9SsAo',
+    category: 'SAAS',
+    title: 'PatentDoc Designer',
+    description: 'SAAS для створення технічної документації та креслень для патентів: генерує професійні креслення, специфікації та пакети документів, експортує в PDF/SVG і полегшує підготовку патентної заяви.',
+    link: 'https://www.youtube.com/watch?v=Iqqj_t9SsAo',
+    price: 'From $49/mo'
+  },
+  {
+    youtubeId: 'O00lV9zAobs',
+    category: 'Blender',
+    title: '2D Special Effects for Blender',
+    description: 'Набір 2D спецефектів для Blender 3D: шейдери, спрайти та інструменти для швидкого створення візуальних ефектів у 2D/2.5D проєктах.',
+    link: 'https://www.youtube.com/watch?v=O00lV9zAobs',
+    price: 'Free'
+  },
+  {
     youtubeId: 'YBd9DVmcF6k',
     category: 'SAAS',
     title: 'AI Business Assistant Dashboard',
-    description: 'Сучасний SAAS-додаток для бізнесу з інтеграцією AI. Автоматизація завдань, аналітика та управління проектами в одному інтерфейсі.',
+    description: 'Сучасний SAAS-додаток для створення професійного шорт‑сценарію для творців контенту в YouTube та TikTok. Створює три варіанти сценарію, прогнозує за тригерами, на якій секунді може відбутися втрата глядача, генерує таблицю з аналітикою та дає поради, як покращити відео.',
     link: 'https://youtu.be/YBd9DVmcF6k',
     price: 'From $29/mo'
   },
