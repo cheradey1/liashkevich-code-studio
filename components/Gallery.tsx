@@ -4,6 +4,14 @@ import ProjectCard from './ProjectCard';
 
 const projects: Project[] = [
   {
+    youtubeId: 'YBd9DVmcF6k',
+    category: 'SAAS',
+    title: 'AI Business Assistant Dashboard',
+    description: 'Сучасний SAAS-додаток для бізнесу з інтеграцією AI. Автоматизація завдань, аналітика та управління проектами в одному інтерфейсі.',
+    link: 'https://youtu.be/YBd9DVmcF6k',
+    price: 'From $29/mo'
+  },
+  {
     youtubeId: 'w-lcAH8vxno',
     category: 'Web',
     title: 'Chat GPT Powered Business Assistant',
