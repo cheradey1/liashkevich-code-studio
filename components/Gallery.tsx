@@ -4,6 +4,15 @@ import ProjectCard from './ProjectCard';
 
 const projects: Project[] = [
   {
+    youtubeId: 'tl4FERI_-rI',
+    category: 'Web',
+    title: 'Sos-Love',
+    description: 'Інноваційна платформа для знайомств з інтелектуальним підбором партнерів. Сучасний інтерфейс, безпека користувачів та персоналізовані рекомендації для пошуку ідеального матчу.',
+    link: 'https://www.youtube.com/watch?v=tl4FERI_-rI',
+    price: 'Free',
+    storeLink: 'https://sos-love.vercel.app/'
+  },
+  {
     youtubeId: 'Iqqj_t9SsAo',
     category: 'SAAS',
     title: 'PatentDoc Designer',
