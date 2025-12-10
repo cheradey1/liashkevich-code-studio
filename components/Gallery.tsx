@@ -4,6 +4,15 @@ import ProjectCard from './ProjectCard';
 
 const projects: Project[] = [
   {
+    youtubeId: 'r49AysKIsUo',
+    category: 'Web',
+    title: 'Калькулятор Активи і Пасиви',
+    description: 'PWA додаток для розрахунку та аналізу активів і пасивів. Простий інтерфейс, миттєві розрахунки та можливість зберігання даних офлайн для фінансового планування.',
+    link: 'https://www.youtube.com/watch?v=r49AysKIsUo',
+    price: 'Free',
+    storeLink: 'https://aktivy-ta-pasivy.vercel.app/'
+  },
+  {
     youtubeId: 'tl4FERI_-rI',
     category: 'Web',
     title: 'Sos-Love',
