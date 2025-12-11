@@ -37,7 +37,7 @@ const Hero: React.FC<HeroProps> = ({ scrollToGallery, setHeroTitleRect }) => {
   return (
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
       <div className="text-center px-4 z-10">
-        <h2 ref={titleRef} className="text-5xl md:text-7xl font-black uppercase tracking-widest animate-text-reveal">
+        <h2 ref={titleRef} className="text-5xl md:text-7xl font-black uppercase tracking-widest animate-text-reveal" style={{ fontFamily: "'Playfair Display', serif" }}>
           <span className="text-white forge-glow">Liashkevich</span>
           <span className="block text-transparent bg-clip-text forge-glow-gradient">
             Code Studio
