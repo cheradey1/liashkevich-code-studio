@@ -15,7 +15,7 @@ const projects: Project[] = [
     youtubeId: 'lwbHuVSJnQI',
     category: 'Web',
     title: 'Pizza',
-    description: 'Веб-додаток для замовлення та управління піцерею. Сучасний UI, реал-тайм оновлення та мобільна оптимізація.',
+    description: 'Веб-додаток для замовлення та управління піцерією. Сучасний UI, реал-тайм оновлення та мобільна оптимізація.',
     link: 'https://www.youtube.com/watch?v=lwbHuVSJnQI',
     price: 'Free'
   },
