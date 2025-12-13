@@ -4,6 +4,13 @@ import ProjectCard from './ProjectCard';
 
 const projects: Project[] = [
   {
+    youtubeId: 'uJBFhDgoimg',
+    category: 'Web',
+    title: 'Biometric',
+    description: 'PWA додаток для біометричної ідентифікації та аутентифікації. Сучасна безпека з використанням відбитків пальців та розпізнавання обличчя.',
+    link: 'https://www.youtube.com/watch?v=uJBFhDgoimg'
+  },
+  {
     youtubeId: 'hVV4ivbTXZc',
     category: 'Web',
     title: 'Калькулятор Святості',
