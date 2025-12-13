@@ -73,19 +73,17 @@ const projects: Project[] = [
     youtubeId: 'eNKnBF07Uew',
     category: 'Blender',
     title: 'Special Effects in Blender Addon',
-    description: 'Потужний аддон для Blender, що дозволяє створювати вражаючі спецефекти. Доступний для придбання на Gumroad.',
+    description: 'Потужний аддон для Blender, що дозволяє створювати вражаючі спецефекти.',
     link: 'https://www.youtube.com/watch?v=eNKnBF07Uew',
-    price: '$2.00',
-    storeLink: 'https://liashkevich.gumroad.com/l/ybjap'
+    price: '$2.00'
   },
   {
     youtubeId: 'XaVl2--xbN8',
     category: 'Game',
     title: 'You Shall Not Pass',
-    description: 'Захоплююча мобільна гра, де ви повинні захищати свою територію від ворогів. Завантажуйте з Google Play!',
+    description: 'Захоплююча мобільна гра, де ви повинні захищати свою територію від ворогів.',
     link: 'https://www.youtube.com/watch?v=XaVl2--xbN8',
-    price: 'Free',
-    storeLink: 'https://play.google.com/store/apps/details?id=com.DONTPUSHTHEHORSESGAMESTUDIOS.YouShallNotPass'
+    price: 'Free'
   },
   {
     youtubeId: 'X_jwVzjRXSM',
@@ -103,7 +101,7 @@ const Gallery: React.FC = () => {
       <div className="container mx-auto px-6">
         <h2 className="text-4xl font-bold text-center text-white mb-2">Галерея проектів</h2>
         <p className="text-center text-gray-400 mb-12 max-w-2xl mx-auto">
-          Ознайомтеся з нашими AI-рішеннями, веб-додатками та PWA-сайтами. Кожен проект — це поєднання інноваційного коду, дизайну та штучного інтелекту.
+          Веб-додатки, PWA, ігри та інструменти, які я створив. Кожен проект — це поєднання сучасного коду, адаптивного дизайну та фокусу на User Experience.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
