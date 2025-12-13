@@ -16,12 +16,21 @@ const About: React.FC = () => {
             </div>
           </div>
           <div className="md:w-1/2 lg:w-3/5">
-            <h2 className="text-4xl font-bold text-white mb-4">Про студію</h2>
-            <p className="text-gray-400 mb-6 leading-relaxed">
-             <b>Liashkevich Code Studio</b> — незалежна студія розробки веб-додатків, сайтів і AI-інструментів нового покоління. Ми створюємо інтелектуальні PWA-рішення, які працюють швидко, автономно та виглядають сучасно на будь-якому пристрої.
+            <h2 className="text-4xl font-bold text-white mb-6">Про мене</h2>
+            <p className="text-gray-400 mb-4 leading-relaxed">
+              Я Frontend Developer, спеціалізуюся на створенні SaaS-інтерфейсів, MVP та PWA-додатків.
             </p>
-            <p className="text-gray-400 mb-10 leading-relaxed">
-             Ми поєднуємо код, дизайн і штучний інтелект, щоб створювати рішення, які не просто працюють — вони розуміють користувача. Наша спеціалізація включає AI-асистентів, прогнозні системи, PWA-сайти з адаптивним дизайном, інтеграції з API та UX-оптимізацію.
+            <p className="text-gray-400 mb-6 leading-relaxed">
+              Моя задача — не просто «зверстати сайт», а зробити зручний продукт, який:
+            </p>
+            <ul className="text-gray-400 mb-6 space-y-2 leading-relaxed">
+              <li>• швидко запускається</li>
+              <li>• коректно працює на мобільних пристроях</li>
+              <li>• виглядає як повноцінний застосунок</li>
+              <li>• готовий до масштабування</li>
+            </ul>
+            <p className="text-gray-400 leading-relaxed">
+              Працюю як з проєктами з нуля, так і з копіями / редизайном існуючих сайтів, перетворюючи їх у сучасні PWA-додатки.
             </p>
           </div>
         </div>

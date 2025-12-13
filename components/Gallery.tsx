@@ -4,6 +4,22 @@ import ProjectCard from './ProjectCard';
 
 const projects: Project[] = [
   {
+    youtubeId: 'hVV4ivbTXZc',
+    category: 'Web',
+    title: 'Калькулятор Святості',
+    description: 'PWA додаток для розрахунку святості та духовних показників. Інтуїтивний інтерфейс з офлайн-режимом та персоналізованою аналітикою.',
+    link: 'https://www.youtube.com/watch?v=hVV4ivbTXZc',
+    price: 'Free'
+  },
+  {
+    youtubeId: 'lwbHuVSJnQI',
+    category: 'Web',
+    title: 'Pizza',
+    description: 'Веб-додаток для замовлення та управління пікцериєю. Сучасний UI, реал-тайм оновлення та мобільна оптимізація.',
+    link: 'https://www.youtube.com/watch?v=lwbHuVSJnQI',
+    price: 'Free'
+  },
+  {
     youtubeId: 'r49AysKIsUo',
     category: 'Web',
     title: 'Калькулятор Активи і Пасиви',
