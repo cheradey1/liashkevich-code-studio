@@ -39,7 +39,6 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
         <h3 className="text-xl font-bold text-white mb-2">{title}</h3>
         <p className="text-gray-400 text-sm flex-grow mb-4">{description}</p>
         <div className="flex justify-between items-center mt-auto">
-          <span className="text-2xl font-bold text-[#00FFFF]">{price}</span>
           {storeLink && (
             <a
               href={storeLink}
@@ -51,7 +50,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
                   : 'bg-[#FF90E8] hover:bg-[#FF73E3] text-black'
               }`}
             >
-              {link.includes('play.google.com') ? 'Google Play' : 'Gumroad'}
+              {link.includes('play.google.com') ? 'Google Play' : 'PLAY'}
             </a>
           )}
         </div>
