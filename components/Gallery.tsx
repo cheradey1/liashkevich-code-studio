@@ -70,22 +70,6 @@ const projects: Project[] = [
     price: 'Free'
   },
   {
-    youtubeId: 'eNKnBF07Uew',
-    category: 'Blender',
-    title: 'Special Effects in Blender Addon',
-    description: 'Потужний аддон для Blender, що дозволяє створювати вражаючі спецефекти.',
-    link: 'https://www.youtube.com/watch?v=eNKnBF07Uew',
-    price: '$2.00'
-  },
-  {
-    youtubeId: 'XaVl2--xbN8',
-    category: 'Game',
-    title: 'You Shall Not Pass',
-    description: 'Захоплююча мобільна гра, де ви повинні захищати свою територію від ворогів.',
-    link: 'https://www.youtube.com/watch?v=XaVl2--xbN8',
-    price: 'Free'
-  },
-  {
     youtubeId: 'X_jwVzjRXSM',
     category: 'Web',
     title: 'Прогноз здоров\'я',
