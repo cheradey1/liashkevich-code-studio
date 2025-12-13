@@ -4,6 +4,13 @@ import ProjectCard from './ProjectCard';
 
 const projects: Project[] = [
   {
+    youtubeId: 'gRlvKwIRg_c',
+    category: 'Web',
+    title: 'Прогноз погоди',
+    description: 'PWA додаток для перегляду прогнозу погоди з реал-тайм оновленнями. Интуитивний інтерфейс, детальна інформація та графіки змін температури.',
+    link: 'https://www.youtube.com/watch?v=gRlvKwIRg_c'
+  },
+  {
     youtubeId: 'uJBFhDgoimg',
     category: 'Web',
     title: 'Biometric',
