@@ -7,7 +7,7 @@ const projects: Project[] = [
     youtubeId: 'iAgm-x-jTv4',
     category: 'Games',
     title: 'Depth Clash - Мультиплеєр гра',
-    description: 'Розробка гри під ключ (Web + Android) з онлайн-битвами та AI-рекламою. Економічне MVP замість студійних $20k+. Готовий обговорити вашу ідею для розроблення.',
+    description: 'Фронтенд розробка онлайн-гри: веб-версія з real-time синхронізацією, анімаціями та інтерактивним UI для мультиплеєр-битв. React + WebSocket + оптимізація для мобільних.',
     link: 'https://www.youtube.com/watch?v=iAgm-x-jTv4',
     storeLink: 'https://depth-clash.vercel.app/'
   },
